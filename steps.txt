@@ -1,0 +1,11 @@
+st.sidebar.markdown("""
+1. Upload a CSV file.
+2. Preprocess the data by handling missing values and encoding categorical variables if needed.
+3. Choose whether to view the original or cleaned dataset.
+4. Visualize the data using heatmaps or pairplots.
+5. Select features and target variables.
+6. Choose a task (Regression or Classification) and select a model to train.
+7. Evaluate the model's performance with metrics such as r2 score, mean squared error, classification report, accuracy, confusion matrix, and ROC curve.
+8. If applicable, view decision boundaries for classifiers.
+9. For classification tasks, view a heatmap of true vs. predicted values.
+""")
